@@ -10,3 +10,7 @@ Open the notebooks in the order below. Review the input paths and imports in eac
 6. [Visualization](5%20-%20Visualization.ipynb)
 
 Browse the checked-in `dataset/` and `prediction/` folders for inputs and saved masks.
+
+## Inputs and verification
+
+Check the image and mask paths at the beginning of each notebook and select the corresponding dataset split. Inspect mask decoding before starting training, then compare one prediction with its source image and ground-truth mask before running aggregate evaluation. The checked-in prediction directory provides examples you can examine without retraining.
